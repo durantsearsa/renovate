@@ -1,0 +1,13 @@
+diff --git a/package.json b/package.json
+index 8c224cf9f29066f788034ae790812ad0f311023a..2055f8ddd512530f1a07baaabbbdedcb1641bcf2 100644
+--- a/package.json
++++ b/package.json
+@@ -19,7 +19,7 @@
+   "source": "src/index.ts",
+   "main": "./dist/index.cjs",
+   "module": "./dist/index.mjs",
+-  "types": "dist/index.d.ts",
++  "types": "dist/index.d.cts",
+   "unpkg": "./dist/index.umd.js",
+   "exports": {
+     ".": {

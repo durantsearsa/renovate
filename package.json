@@ -365,6 +365,9 @@
     ],
     "overrides": {
       "@semantic-release/github>@octokit/plugin-paginate-rest": "11.3.5"
+    },
+    "patchedDependencies": {
+      "graph-data-structure": "patches/graph-data-structure.patch"
     }
   }
 }

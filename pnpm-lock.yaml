@@ -7,6 +7,11 @@ settings:
 overrides:
   '@semantic-release/github>@octokit/plugin-paginate-rest': 11.3.5
 
+patchedDependencies:
+  graph-data-structure:
+    hash: 52zfcejn4p6vpdtmgu2vwwnzae
+    path: patches/graph-data-structure.patch
+
 importers:
 
   .:
@@ -199,7 +204,7 @@ importers:
         version: 11.8.6
       graph-data-structure:
         specifier: 4.1.0
-        version: 4.1.0
+        version: 4.1.0(patch_hash=52zfcejn4p6vpdtmgu2vwwnzae)
       handlebars:
         specifier: 4.7.8
         version: 4.7.8
@@ -10422,7 +10427,7 @@ snapshots:
 
   graceful-fs@4.2.11: {}
 
-  graph-data-structure@4.1.0: {}
+  graph-data-structure@4.1.0(patch_hash=52zfcejn4p6vpdtmgu2vwwnzae): {}
 
   grapheme-splitter@1.0.4: {}
 
